@@ -73,7 +73,6 @@ All ACPI tables are custom-generated for this hardware:
 - CFG Lock (MSR 0xE2 write protection)
 
 ### Enabled
-- VT-x
 - Above 4G Decoding  
   ⚠ When enabling Above 4G Decoding, make sure Resizable BAR is **disabled** (not Auto).
 - Hyper-Threading
