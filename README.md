@@ -71,11 +71,11 @@ All ACPI tables are custom-generated for this hardware:
 - VT-d (optional, as `DisableIoMapper` is set to `True` in config.plist)
 - Intel Platform Trust
 - CFG Lock (MSR 0xE2 write protection)
+- Hyper-Threading
 
 ### Enabled
 - Above 4G Decoding  
   ⚠ When enabling Above 4G Decoding, make sure Resizable BAR is **disabled** (not Auto).
-- Hyper-Threading
 
 ---
 
@@ -104,7 +104,7 @@ These settings:
 - Resizable BAR must remain **disabled**
 - iMacPro1,1 SMBIOS is used for better stability on this setup
 - OpenCore boot-args include:  
-  keepsyms=1 debug=0x100 agdpmod=pikera revpatch=sbvmm -ctrsmt=full -v  
+  keepsyms=1 debug=0x100 agdpmod=pikera revpatch=sbvmm -v  
 - The `SecureBootModel` is set to `Disabled` by default for installation ease and compatibility. You may enable it to `Default` after installation for improved security and system integrity.
 
 ---
