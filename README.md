@@ -43,6 +43,7 @@ The following kexts are included and configured for this setup:
 - **USBWakeFixup.kext** — Fixes USB wake issues to prevent system crashes or freezes.  
 - **VirtualSMC.kext** — Essential virtual SMC implementation for Hackintosh systems.  
 - **WhateverGreen.kext** — Fixes graphics issues and enables GPU acceleration on macOS.
+- **Phantom.kext** — Circumvents software checks to make macOS appear as a genuine Macintosh.
 
 
 ---
