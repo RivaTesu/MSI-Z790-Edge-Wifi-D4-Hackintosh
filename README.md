@@ -72,6 +72,8 @@ All ACPI tables are custom-generated for this hardware:
 - Intel Platform Trust
 - CFG Lock (MSR 0xE2 write protection)
 - Hyper-Threading
+- Resizable BAR
+- E-Cores `Per E-Core Control` must be set to `Enabled And Dis All E-Core`
 
 ### Enabled
 - Above 4G Decoding  
@@ -104,7 +106,7 @@ These settings:
 - Resizable BAR must remain **disabled**
 - iMacPro1,1 SMBIOS is used for better stability on this setup
 - OpenCore boot-args include:  
-  keepsyms=1 debug=0x100 agdpmod=pikera revpatch=sbvmm -v  
+  keepsyms=1 debug=0x100 agdpmod=pikera revpatch=sbvmm -v -ctrsmt  
 - The `SecureBootModel` is set to `Disabled` by default for installation ease and compatibility. You may enable it to `Default` after installation for improved security and system integrity.
 
 ---
