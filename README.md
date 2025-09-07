@@ -17,8 +17,8 @@ This is my fully working OpenCore EFI for macOS Sonoma 14.5 on an Intel 13th Gen
 
 ## ⚙ OpenCore
 
-- **Version:** 1.0.0  
-- **Release date:** 09/05/2024  
+- **Version:** 1.0.5
+- **Release date:** 07/07/2025
 
 ---
 
